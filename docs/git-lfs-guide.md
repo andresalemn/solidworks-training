@@ -50,18 +50,26 @@ git status
 ```
 > 💡 **Tip:** SolidWorks creates temporary lock files (e.g. `~$part.sldprt`) while files are open. Make sure to **close SolidWorks** (or the open model) before committing so temporary lock files disappear.
 
-### Step 3: Verify LFS is tracking your CAD files
-Verify that your native CAD binaries (`.sldprt`, `.sldasm`, `.slddrw`) are tracked by Git LFS:
-```bash
-git lfs status
-```
-You should see your CAD files listed under **LFS objects to be committed**.
-
-### Step 4: Stage your changes
+### Step 3: Stage your changes
 Stage your modified/new files:
 ```bash
 git add .
 ```
+
+### Step 4: Verify LFS is tracking your staged CAD files
+Run `git lfs status` **after** staging your files. It compares your index against LFS:
+```bash
+git lfs status
+```
+You will see your staged CAD files listed under **LFS objects to be committed** (confirming Git LFS hooked them properly).
+
+> 💡 **Checking LFS tracking before staging:**
+> If you want to check if a file extension (like `.sldprt`) is configured for LFS *before* staging, run:
+> ```bash
+> git check-attr -a path/to/file.sldprt
+> ```
+
+---
 
 ### Step 5: Create a milestone commit
 
@@ -82,9 +90,9 @@ git push origin main
 ## 🛠️ Step-by-Step Checklist (Quick Reference)
 
 - [ ] **Close SolidWorks** to clear temporary `~$` lock files.
-- [ ] Run `git status` to ensure no temporary or unwanted files are staged.
-- [ ] Run `git lfs status` to confirm CAD files are detected by LFS.
+- [ ] Run `git status` to ensure no unwanted or temporary files are staged.
 - [ ] Run `git add .` to stage files.
+- [ ] Run `git lfs status` to confirm staged CAD files are listed under LFS objects.
 - [ ] Write a commit message: `<type>(<scope>): <emoji> <description>` (< 50 chars header).
 - [ ] Explain **what** and **why** in the commit body when needed.
 - [ ] Run `git push origin main` to upload commits and LFS binary payloads.
