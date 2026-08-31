@@ -1,0 +1,41 @@
+# === SolidWorks temp / lock / backup files ===
+~$*                 # SW lock files (created while a file is open)
+*.~*
+*.bak
+*.old
+
+# SolidWorks auto-recover / backup folders
+*_backup/
+SW_backup/
+
+# SolidWorks journal & log files (session-specific, not useful in repo)
+*.SLDLOG
+*.log
+
+# Design table temp files (if you use Excel-driven design tables)
+~$*.xlsx
+~$*.xls
+
+# SolidWorks generated preview/thumbnail cache (regenerates automatically)
+*.SLDPRT.thumb
+*.SLDASM.thumb
+
+# eDrawings temp exports (regenerate on demand, don't need version control)
+*.eprt
+*.edrw
+*.easm
+
+# === OS junk ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Editor / tool junk ===
+.vscode/
+*.tmp
+
+# === Large exports you may regenerate rather than store ===
+# Uncomment if you don't want STEP/PDF exports tracked (they're derived files)
+# *.STEP
+# *.step
+# *.pdf
