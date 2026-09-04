@@ -42,14 +42,14 @@ En esta sesión se comparan dos estructuras lógicas diferentes para modelar exa
 Este método utiliza extrusiones sucesivas añadidas sobre las caras planas creadas por las operaciones previas.
 
 <p align="center">
-  <img src="./2-extrude-tree.png" alt="Feature Manager Layout" width="300">
+  <img src="./2-extrude-tree.png" alt="Feature Manager Layout" width="800">
 </p>
 
 ### Opción B: Método por Revolución (Revolve Feature)
 Este método crea todo el cuerpo cilíndrico en una sola operación haciendo girar la mitad del perfil (croquis cerrado) 360 grados alrededor de un eje de simetría (línea constructiva).
 
 <p align="center">
-  <img src="./2-revolute-tree.png" alt="Feature Manager Layout" width="300">
+  <img src="./2-revolute-tree.png" alt="Feature Manager Layout" width="800">
 </p>
 
 ---
