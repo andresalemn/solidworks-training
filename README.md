@@ -6,6 +6,15 @@ Since native SolidWorks files (`.sldprt`, `.sldasm`, `.slddrw`) are binary forma
 
 ---
 
+## 📝 Course Notes & Documentation
+
+In addition to CAD models, this repository contains detailed Markdown notes for each course module. Visitors and reviewers can browse these notes to inspect key concepts, design intent strategies, speed hacks, and troubleshooting tips.
+
+* **Documentation Hub (`00-docs/`):** Each course workspace contains a `00-docs/` directory housing global templates and reference guides (such as `cswa-sketch-checklist.md` and `cswa-note-template.md`).
+* **Lesson Notes (`README.md`):** Every lesson folder includes a dedicated `README.md` containing notes, bilingual tool glossaries, tree structures, and practical insights. These render automatically when browsing the folder on GitHub.
+
+---
+
 ## 📦 Git LFS & Working with Binary CAD Files
 
 Because Git is designed for text diffs, binary files can quickly inflate repository size if tracked directly in core Git. Git LFS replaces binary files in your repository with light text *pointers*, storing the actual heavy payloads on a remote LFS server.
@@ -48,19 +57,20 @@ Because Git is designed for text diffs, binary files can quickly inflate reposit
 solidworks-training/
 ├── adnisais/
 │   ├── cswa-prep/
-│   │   ├── 01-leccion-intro/
+│   │   ├── 00-docs/           # Global course templates, checklists & guidelines
+│   │   ├── 01-leccion-intro/  # Lesson folder with CAD files & rendered README.md notes
 │   │   ├── 02-leccion-croquis/
 │   │   ├── [additional lessons...]
-│   │   ├── 99-resources/      # Instructor-provided reference parts & assemblies (Read-Only)
-│   │   └── README.md
-│   ├── cswp-prep/
+│   │   └── 99-resources/      # Instructor-provided reference parts & assemblies (Read-Only)
+│   └── cswp-prep/
 └── [new-instructor]/
     └── [new-course]/
 ```
 
 - **Top-level directory:** Instructor / Author (`adnisais/`)
 - **Second-level directory:** Course workspace (`cswa-prep/`)
-- **Numbered directories (`01-`, `02-`):** Chronological hands-on exercises and personal practice.
+- **`00-docs/`:** Course-wide documentation, templates, and sketch checklists.
+- **Numbered directories (`01-`, `02-`):** Chronological hands-on exercises containing native SolidWorks files and a `README.md` with module notes.
 - **`99-resources/`:** Provided course resources, component parts, and completed reference assemblies.
 
 ---
