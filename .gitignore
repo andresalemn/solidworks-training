@@ -1,5 +1,6 @@
 # === SolidWorks temp / lock / backup files ===
-~$*                 # SW lock files (created while a file is open)
+# SW lock files (created while a file is open)
+~$*
 *.~*
 *.bak
 *.old
