@@ -13,13 +13,17 @@ import sys
 from collections import defaultdict
 from pathlib import Path
 
+# Configurar encoding de stdout para consolas Windows (GBK / CP1252)
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
 ROOT = Path(__file__).resolve().parent
 README = ROOT / "tracker.md"
 CAD = {".sldprt", ".sldasm", ".slddrw"}
 
 LEVEL = re.compile(r"^## Nivel (\d+)")
-ROW = re.compile(r"^\| (⬜|🟨|✅|🔁) \| \d+ \| \[([^\]]+)\]\(([^)]+)\) \|")
-SUMMARY = re.compile(r"^\| (\d+) \| (\[[^\]]+\]\(#nivel-\d+\)) \| (\w+) \| (\d+) \| \d+ \| \d+% \|$")
+ROW = re.compile(r"^\|\s*(⬜|🟨|✅|🔁)\s*\|\s*(\d+)\s*\|\s*\[([^\]]+)\]\(([^)]+)\)")
+SUMMARY = re.compile(r"^\|\s*(\d+)\s*\|\s*(\[[^\]]+\]\(#nivel-\d+\))\s*\|\s*([^|]+)\s*\|\s*(\d+)\s*\|\s*\d+\s*\|\s*\d+%\s*\|")
 TOTAL = re.compile(r"^\*\*Total: \d+ / \d+.*")
 
 
@@ -31,7 +35,7 @@ def has_cad_work(folder: Path) -> bool:
     if not folder.is_dir():
         return False
     for p in folder.rglob("*"):
-        if p.is_file() and p.suffix.lower() in CAD:
+        if p.is_file() and p.suffix.lower() in CAD and not p.name.startswith("~$"):
             rel_dirs = p.relative_to(folder).parts[:-1]
             if not any(d.lower() == "original" for d in rel_dirs):
                 return True
@@ -43,7 +47,7 @@ def init():
     for line in read_lines():
         m = ROW.match(line)
         if m:
-            d = ROOT / m[3]
+            d = ROOT / m[4]
             if not d.exists():
                 d.mkdir(parents=True)
                 created += 1
@@ -64,10 +68,12 @@ def sync(dry_run: bool):
         if not r or level is None:
             continue
         status = r[1]
-        if status == "⬜" and has_cad_work(ROOT / r[3]):
+        folder_path = r[4]
+        problem_id = r[3]
+        if status == "⬜" and has_cad_work(ROOT / folder_path):
             lines[i] = line[:r.start(1)] + "✅" + line[r.end(1):]
             status = "✅"
-            newly.append(r[2])
+            newly.append(problem_id)
         total[level] += 1
         done[level] += status == "✅"
 

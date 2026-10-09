@@ -12,53 +12,53 @@ Fuente oficial: [https://www.solidworks.com/solution/education/practice-problems
 
 | Nivel | Título | Examen | Total | Hechos | Avance |
 |---|---|---|---:|---:|---:|
-| 1 | [Basic Sketch & Extrusion](#nivel-1) | CSWA | 20 | 2 | 10% |
-| 2 | [Sketch Tools & End Conditions](#nivel-2) | CSWA | 20 | 0 | 0% |
-| 3 | [Global Variables & Sketch Patterns](#nivel-3) | CSWA | 8 | 0 | 0% |
-| 4 | [Extrude Cut & Fillet/Chamfer](#nivel-4) | CSWA | 70 | 0 | 0% |
-| 5 | [Reference Geometry](#nivel-5) | CSWA | 15 | 0 | 0% |
-| 6 | [Revolve Boss/Cut](#nivel-6) | CSWA | 20 | 0 | 0% |
-| 7 | [Feature Patterning](#nivel-7) | CSWA | 48 | 0 | 0% |
-| 8 | [Sweep Boss/Cut](#nivel-8) | CSWA | 14 | 0 | 0% |
-| 9 | [Assemblies and Mates](#nivel-9) | CSWA | 16 | 0 | 0% |
-| 10 | [CSWA Exam Level](#nivel-10) | CSWA | 19 | 0 | 0% |
-| 11 | [Hole Wizard](#nivel-11) | CSWP | 12 | 0 | 0% |
-| 12 | [Draft](#nivel-12) | CSWP | 9 | 0 | 0% |
-| 13 | [Shell](#nivel-13) | CSWP | 13 | 0 | 0% |
-| 14 | [Rib](#nivel-14) | CSWP | 9 | 0 | 0% |
-| 15 | [Configurations, Design Tables, Suppress](#nivel-15) | CSWP | 16 | 0 | 0% |
-| 16 | [Global Variables, Equations, Link Values](#nivel-16) | CSWP | 7 | 0 | 0% |
-| 17 | [Move, Rotate, Collision & Interference](#nivel-17) | CSWP | 14 | 0 | 0% |
-| 18 | [CSWP Exam Level](#nivel-18) | CSWP | 35 | 0 | 0% |
+| 1 | [Basic Sketch & Extrusion](#nivel-1) | CSWA     | 20 | 5 | 25% |
+| 2 | [Sketch Tools & End Conditions](#nivel-2) | CSWA     | 20 | 0 | 0% |
+| 3 | [Global Variables & Sketch Patterns](#nivel-3) | CSWA     | 8 | 0 | 0% |
+| 4 | [Extrude Cut & Fillet/Chamfer](#nivel-4) | CSWA     | 70 | 0 | 0% |
+| 5 | [Reference Geometry](#nivel-5) | CSWA     | 15 | 0 | 0% |
+| 6 | [Revolve Boss/Cut](#nivel-6) | CSWA     | 20 | 0 | 0% |
+| 7 | [Feature Patterning](#nivel-7) | CSWA     | 48 | 0 | 0% |
+| 8 | [Sweep Boss/Cut](#nivel-8) | CSWA     | 14 | 0 | 0% |
+| 9 | [Assemblies and Mates](#nivel-9) | CSWA     | 16 | 0 | 0% |
+| 10 | [CSWA Exam Level](#nivel-10) | CSWA     | 19 | 0 | 0% |
+| 11 | [Hole Wizard](#nivel-11) | CSWP     | 12 | 0 | 0% |
+| 12 | [Draft](#nivel-12) | CSWP     | 9 | 0 | 0% |
+| 13 | [Shell](#nivel-13) | CSWP     | 13 | 0 | 0% |
+| 14 | [Rib](#nivel-14) | CSWP     | 9 | 0 | 0% |
+| 15 | [Configurations, Design Tables, Suppress](#nivel-15) | CSWP     | 16 | 0 | 0% |
+| 16 | [Global Variables, Equations, Link Values](#nivel-16) | CSWP     | 7 | 0 | 0% |
+| 17 | [Move, Rotate, Collision & Interference](#nivel-17) | CSWP     | 14 | 0 | 0% |
+| 18 | [CSWP Exam Level](#nivel-18) | CSWP     | 35 | 0 | 0% |
 
-**Total: 2 / 365** (1%)
+**Total: 5 / 365** (1%)
 
 ## Nivel 1
 
 **[Basic Sketch & Extrusion](01-basic-sketch-extrusion/)** — CSWA — 20 problemas
 
-| Estado | ID | Problema | Dif. | Minutos | Unidades | Features | Archivo | Tiempo real | Notas |
-|:-:|---|---|---|---:|:-:|---|---|---|---|
-| ✅ | 1 | [01.01](01-basic-sketch-extrusion/01.01/) | Easy | 5 | m | Extrude Boss | [1-1](01-basic-sketch-extrusion/01.01/PracticeProblems_1_1_ENG.pdf) |  |  |
-| ✅ | 2 | [01.02](01-basic-sketch-extrusion/01.02/) | Easy | 10 | m | Extrude Boss | [1-2](01-basic-sketch-extrusion/01.02/PracticeProblems_1_2_ENG.pdf) |  |  |
-| ⬜ | 3 | [01.03](01-basic-sketch-extrusion/01.03/) | Easy | 5 | m | Extrude Boss | [1-3](01-basic-sketch-extrusion/01.03/PracticeProblems_1_3_ENG.pdf) |  |  |
-| ⬜ | 4 | [01.04](01-basic-sketch-extrusion/01.04/) | Easy | 10 | i | Extrude Boss, Sketch: Polygon | [1-4](01-basic-sketch-extrusion/01.04/PracticeProblems_1_4_ENG.pdf) |  |  |
-| ⬜ | 5 | [01.05](01-basic-sketch-extrusion/01.05/) | Easy | 10 | i | Extrude Boss, Sketch: Polygon | [1-5](01-basic-sketch-extrusion/01.05/PracticeProblems_1_5_ENG.pdf) |  |  |
-| ⬜ | 6 | [01.06](01-basic-sketch-extrusion/01.06/) | Easy | 10 | m | Extrude Boss | [1-6](01-basic-sketch-extrusion/01.06/PracticeProblems_1_6_ENG.pdf) |  |  |
-| ⬜ | 7 | [01.07](01-basic-sketch-extrusion/01.07/) | Medium | 20 | m | Extrude Boss | [1-7](01-basic-sketch-extrusion/01.07/PracticeProblems_1_7_ENG.pdf) |  |  |
-| ⬜ | 8 | [01.08](01-basic-sketch-extrusion/01.08/) | Easy | 10 | m | Extrude Boss | [1-8](01-basic-sketch-extrusion/01.08/PracticeProblems_1_8_ENG.pdf) |  |  |
-| ⬜ | 9 | [01.09](01-basic-sketch-extrusion/01.09/) | Medium | 10 | m | Extrude Boss | [1-9](01-basic-sketch-extrusion/01.09/PracticeProblems_1_9_ENG.pdf) |  |  |
-| ⬜ | 10 | [01.10](01-basic-sketch-extrusion/01.10/) | Medium | 15 | m | Extrude Boss | [1-10](01-basic-sketch-extrusion/01.10/PracticeProblems_1_10_ENG.pdf) |  |  |
-| ⬜ | 11 | [01.11](01-basic-sketch-extrusion/01.11/) | Easy | 10 | m | Extrude Boss | [1-11](01-basic-sketch-extrusion/01.11/PracticeProblems_1_11_ENG.pdf) |  |  |
-| ⬜ | 12 | [01.12](01-basic-sketch-extrusion/01.12/) | Easy | 5 | m | Extrude Boss | [1-12](01-basic-sketch-extrusion/01.12/PracticeProblems_1_12_ENG.pdf) |  |  |
-| ⬜ | 13 | [01.13](01-basic-sketch-extrusion/01.13/) | Medium | 15 | m | Extrude Boss | [1-13](01-basic-sketch-extrusion/01.13/PracticeProblems_1_13_ENG.pdf) |  |  |
-| ⬜ | 14 | [01.14](01-basic-sketch-extrusion/01.14/) | Easy | 10 | m | Extrude Boss | [1-14](01-basic-sketch-extrusion/01.14/PracticeProblems_1_14_ENG.pdf) |  |  |
-| ⬜ | 15 | [01.15](01-basic-sketch-extrusion/01.15/) | Medium | 15 | m | Extrude Boss | [1-15](01-basic-sketch-extrusion/01.15/PracticeProblems_1_15_ENG.pdf) |  |  |
-| ⬜ | 16 | [01.16](01-basic-sketch-extrusion/01.16/) | Easy | 5 | m | Extrude Boss | [1-16](01-basic-sketch-extrusion/01.16/PracticeProblems_1_16_ENG.pdf) |  |  |
-| ⬜ | 17 | [01.17](01-basic-sketch-extrusion/01.17/) | Easy | 5 | m | Extrude Boss | [1-17](01-basic-sketch-extrusion/01.17/PracticeProblems_1_17_ENG.pdf) |  |  |
-| ⬜ | 18 | [01.18](01-basic-sketch-extrusion/01.18/) | Medium | 10 | m | Extrude Boss | [1-18](01-basic-sketch-extrusion/01.18/PracticeProblems_1_18_ENG.pdf) |  |  |
-| ⬜ | 19 | [01.19](01-basic-sketch-extrusion/01.19/) | Easy | 10 | m | Extrude Boss | [1-19](01-basic-sketch-extrusion/01.19/PracticeProblems_1_19_ENG.pdf) |  |  |
-| ⬜ | 20 | [01.20](01-basic-sketch-extrusion/01.20/) | Medium | 10 | m | Extrude Boss | [1-20](01-basic-sketch-extrusion/01.20/PracticeProblems_1_20_ENG.pdf) |  |  |
+| Estado | ID  | Problema                                  | Dif.   | Minutos | Unidades | Features                      | Archivo                                                               | Tiempo real | Notas |
+| :----: | --- | ----------------------------------------- | ------ | ------: | :------: | ----------------------------- | --------------------------------------------------------------------- | ----------- | ----- |
+|   ✅    | 1   | [01.01](01-basic-sketch-extrusion/01.01/) | Easy   |       5 |    m     | Extrude Boss                  | [1-1](01-basic-sketch-extrusion/01.01/PracticeProblems_1_1_ENG.pdf)   | 8 min       |       |
+|   ✅    | 2   | [01.02](01-basic-sketch-extrusion/01.02/) | Easy   |      10 |    m     | Extrude Boss                  | [1-2](01-basic-sketch-extrusion/01.02/PracticeProblems_1_2_ENG.pdf)   | 20 min      |       |
+|   ✅    | 3   | [01.03](01-basic-sketch-extrusion/01.03/) | Easy   |       5 |    m     | Extrude Boss                  | [1-3](01-basic-sketch-extrusion/01.03/PracticeProblems_1_3_ENG.pdf)   | 10 min      |       |
+|   ✅    | 4   | [01.04](01-basic-sketch-extrusion/01.04/) | Easy   |      10 |    i     | Extrude Boss, Sketch: Polygon | [1-4](01-basic-sketch-extrusion/01.04/PracticeProblems_1_4_ENG.pdf)   | 12 min      |       |
+|   ✅    | 5   | [01.05](01-basic-sketch-extrusion/01.05/) | Easy   |      10 |    i     | Extrude Boss, Sketch: Polygon | [1-5](01-basic-sketch-extrusion/01.05/PracticeProblems_1_5_ENG.pdf)   | 20 min      |       |
+|   ⬜    | 6   | [01.06](01-basic-sketch-extrusion/01.06/) | Easy   |      10 |    m     | Extrude Boss                  | [1-6](01-basic-sketch-extrusion/01.06/PracticeProblems_1_6_ENG.pdf)   |             |       |
+|   ⬜    | 7   | [01.07](01-basic-sketch-extrusion/01.07/) | Medium |      20 |    m     | Extrude Boss                  | [1-7](01-basic-sketch-extrusion/01.07/PracticeProblems_1_7_ENG.pdf)   |             |       |
+|   ⬜    | 8   | [01.08](01-basic-sketch-extrusion/01.08/) | Easy   |      10 |    m     | Extrude Boss                  | [1-8](01-basic-sketch-extrusion/01.08/PracticeProblems_1_8_ENG.pdf)   |             |       |
+|   ⬜    | 9   | [01.09](01-basic-sketch-extrusion/01.09/) | Medium |      10 |    m     | Extrude Boss                  | [1-9](01-basic-sketch-extrusion/01.09/PracticeProblems_1_9_ENG.pdf)   |             |       |
+|   ⬜    | 10  | [01.10](01-basic-sketch-extrusion/01.10/) | Medium |      15 |    m     | Extrude Boss                  | [1-10](01-basic-sketch-extrusion/01.10/PracticeProblems_1_10_ENG.pdf) |             |       |
+|   ⬜    | 11  | [01.11](01-basic-sketch-extrusion/01.11/) | Easy   |      10 |    m     | Extrude Boss                  | [1-11](01-basic-sketch-extrusion/01.11/PracticeProblems_1_11_ENG.pdf) |             |       |
+|   ⬜    | 12  | [01.12](01-basic-sketch-extrusion/01.12/) | Easy   |       5 |    m     | Extrude Boss                  | [1-12](01-basic-sketch-extrusion/01.12/PracticeProblems_1_12_ENG.pdf) |             |       |
+|   ⬜    | 13  | [01.13](01-basic-sketch-extrusion/01.13/) | Medium |      15 |    m     | Extrude Boss                  | [1-13](01-basic-sketch-extrusion/01.13/PracticeProblems_1_13_ENG.pdf) |             |       |
+|   ⬜    | 14  | [01.14](01-basic-sketch-extrusion/01.14/) | Easy   |      10 |    m     | Extrude Boss                  | [1-14](01-basic-sketch-extrusion/01.14/PracticeProblems_1_14_ENG.pdf) |             |       |
+|   ⬜    | 15  | [01.15](01-basic-sketch-extrusion/01.15/) | Medium |      15 |    m     | Extrude Boss                  | [1-15](01-basic-sketch-extrusion/01.15/PracticeProblems_1_15_ENG.pdf) |             |       |
+|   ⬜    | 16  | [01.16](01-basic-sketch-extrusion/01.16/) | Easy   |       5 |    m     | Extrude Boss                  | [1-16](01-basic-sketch-extrusion/01.16/PracticeProblems_1_16_ENG.pdf) |             |       |
+|   ⬜    | 17  | [01.17](01-basic-sketch-extrusion/01.17/) | Easy   |       5 |    m     | Extrude Boss                  | [1-17](01-basic-sketch-extrusion/01.17/PracticeProblems_1_17_ENG.pdf) |             |       |
+|   ⬜    | 18  | [01.18](01-basic-sketch-extrusion/01.18/) | Medium |      10 |    m     | Extrude Boss                  | [1-18](01-basic-sketch-extrusion/01.18/PracticeProblems_1_18_ENG.pdf) |             |       |
+|   ⬜    | 19  | [01.19](01-basic-sketch-extrusion/01.19/) | Easy   |      10 |    m     | Extrude Boss                  | [1-19](01-basic-sketch-extrusion/01.19/PracticeProblems_1_19_ENG.pdf) |             |       |
+|   ⬜    | 20  | [01.20](01-basic-sketch-extrusion/01.20/) | Medium |      10 |    m     | Extrude Boss                  | [1-20](01-basic-sketch-extrusion/01.20/PracticeProblems_1_20_ENG.pdf) |             |       |
 
 ## Nivel 2
 
