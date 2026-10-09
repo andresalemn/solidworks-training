@@ -33,7 +33,7 @@ Because Git is designed for text diffs, binary files can quickly inflate reposit
    ```
    > 💡 **Note:** Standard `git clone` downloads LFS *pointer files*. Running `git lfs pull` (or standard `git checkout` after `git lfs install`) ensures the actual binary files are retrieved.
 
-- **Useful Commands & Step-by-Step Guide:** See [docs/git-lfs-guide.md](file:///C:/Users/52477/Documents/Sandbox/solidworks-training/docs/git-lfs-guide.md) for a detailed routine commit & push workflow.
+- **Useful Commands & Step-by-Step Guide:** See [docs/git-lfs-guide.md](docs/git-lfs-guide.md) for a detailed routine commit & push workflow.
 - **Check which files are tracked by LFS:**
   ```bash
   git lfs ls-files
@@ -63,6 +63,15 @@ solidworks-training/
 │   │   ├── [additional lessons...]
 │   │   └── 99-resources/      # Instructor-provided reference parts & assemblies (Read-Only)
 │   └── cswp-prep/
+├── solidworks/                         
+│   └── practice-problems/              
+│       ├── README.md                   # tracker de avance
+│       ├── 00-docs/                    # plantillas y checklists
+│       ├── 01-basic-sketch-extrusion/
+│       │   ├── 1.01/                   # PDF original + CADs
+│       │   └── ...
+│       ├── ...
+│       └── 18-cswp-exam-level/
 └── [new-instructor]/
     └── [new-course]/
 ```
@@ -81,3 +90,4 @@ solidworks-training/
 | :--- | :--- | :--- | :--- |
 | Adnisais | Curso Solidworks Básico (CSWA) | `cswa-prep` | In Progress |
 | Adnisais | Curso Solidworks Básico (CSWP) | `cswp-prep` | Planned |
+| SolidWorks | SOLIDWORKS Practice Problem Database | `practice-problems` | In Progress |
