@@ -45,3 +45,45 @@ desktop.ini
 # *.avi
 # *.mp4
 # *.mov
+
+# ---------------------------------------------------
+# Obsidian Vault Git Ignore Rules
+# ---------------------------------------------------
+
+# Ignore transient and device-specific state
+.obsidian/graph.json
+.obsidian/workspace.json
+.obsidian/appearance.json
+
+# ---------------------------------------------------
+# Customizations and core settings
+# ---------------------------------------------------
+
+# Include only meaningful settings
+!.obsidian/app.json
+!.obsidian/themes/
+!.obsidian/snippets/
+!.obsidian/hotkeys.json
+!.obsidian/workspaces.json
+!.obsidian/core-plugins.json
+!.obsidian/community-plugins.json
+
+# ---------------------------------------------------
+# Plugin handling
+# ---------------------------------------------------
+
+# Ignore plugin code and style files
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/manifest.json
+.obsidian/plugins/*/cache/
+.obsidian/plugins/*/backups/
+.obsidian/plugins/*/logs/
+.obsidian/plugins/*/tmp/
+.obsidian/plugins/*/obsidian_askpass.sh
+
+# ---------------------------------------------------
+# System files
+# ---------------------------------------------------
+.DS_Store
+Thumbs.db
