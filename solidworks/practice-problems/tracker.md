@@ -12,26 +12,26 @@ Fuente oficial: [https://www.solidworks.com/solution/education/practice-problems
 
 | Nivel | Título | Examen | Total | Hechos | Avance |
 |---|---|---|---:|---:|---:|
-| 1 | [Basic Sketch & Extrusion](#nivel-1) | CSWA          | 20 | 20 | 100% |
-| 2 | [Sketch Tools & End Conditions](#nivel-2) | CSWA          | 20 | 12 | 60% |
-| 3 | [Global Variables & Sketch Patterns](#nivel-3) | CSWA          | 8 | 0 | 0% |
-| 4 | [Extrude Cut & Fillet/Chamfer](#nivel-4) | CSWA          | 70 | 0 | 0% |
-| 5 | [Reference Geometry](#nivel-5) | CSWA          | 15 | 0 | 0% |
-| 6 | [Revolve Boss/Cut](#nivel-6) | CSWA          | 20 | 0 | 0% |
-| 7 | [Feature Patterning](#nivel-7) | CSWA          | 48 | 0 | 0% |
-| 8 | [Sweep Boss/Cut](#nivel-8) | CSWA          | 14 | 0 | 0% |
-| 9 | [Assemblies and Mates](#nivel-9) | CSWA          | 16 | 0 | 0% |
-| 10 | [CSWA Exam Level](#nivel-10) | CSWA          | 19 | 0 | 0% |
-| 11 | [Hole Wizard](#nivel-11) | CSWP          | 12 | 0 | 0% |
-| 12 | [Draft](#nivel-12) | CSWP          | 9 | 0 | 0% |
-| 13 | [Shell](#nivel-13) | CSWP          | 13 | 0 | 0% |
-| 14 | [Rib](#nivel-14) | CSWP          | 9 | 0 | 0% |
-| 15 | [Configurations, Design Tables, Suppress](#nivel-15) | CSWP          | 16 | 0 | 0% |
-| 16 | [Global Variables, Equations, Link Values](#nivel-16) | CSWP          | 7 | 0 | 0% |
-| 17 | [Move, Rotate, Collision & Interference](#nivel-17) | CSWP          | 14 | 0 | 0% |
-| 18 | [CSWP Exam Level](#nivel-18) | CSWP          | 35 | 0 | 0% |
+| 1 | [Basic Sketch & Extrusion](#nivel-1) | CSWA           | 20 | 20 | 100% |
+| 2 | [Sketch Tools & End Conditions](#nivel-2) | CSWA           | 20 | 20 | 100% |
+| 3 | [Global Variables & Sketch Patterns](#nivel-3) | CSWA           | 8 | 0 | 0% |
+| 4 | [Extrude Cut & Fillet/Chamfer](#nivel-4) | CSWA           | 70 | 0 | 0% |
+| 5 | [Reference Geometry](#nivel-5) | CSWA           | 15 | 0 | 0% |
+| 6 | [Revolve Boss/Cut](#nivel-6) | CSWA           | 20 | 0 | 0% |
+| 7 | [Feature Patterning](#nivel-7) | CSWA           | 48 | 0 | 0% |
+| 8 | [Sweep Boss/Cut](#nivel-8) | CSWA           | 14 | 0 | 0% |
+| 9 | [Assemblies and Mates](#nivel-9) | CSWA           | 16 | 0 | 0% |
+| 10 | [CSWA Exam Level](#nivel-10) | CSWA           | 19 | 0 | 0% |
+| 11 | [Hole Wizard](#nivel-11) | CSWP           | 12 | 0 | 0% |
+| 12 | [Draft](#nivel-12) | CSWP           | 9 | 0 | 0% |
+| 13 | [Shell](#nivel-13) | CSWP           | 13 | 0 | 0% |
+| 14 | [Rib](#nivel-14) | CSWP           | 9 | 0 | 0% |
+| 15 | [Configurations, Design Tables, Suppress](#nivel-15) | CSWP           | 16 | 0 | 0% |
+| 16 | [Global Variables, Equations, Link Values](#nivel-16) | CSWP           | 7 | 0 | 0% |
+| 17 | [Move, Rotate, Collision & Interference](#nivel-17) | CSWP           | 14 | 0 | 0% |
+| 18 | [CSWP Exam Level](#nivel-18) | CSWP           | 35 | 0 | 0% |
 
-**Total: 32 / 365** (9%)
+**Total: 40 / 365** (11%)
 
 > Copiar y pegar para las notas:
 
@@ -77,7 +77,7 @@ in³
 
 | Estado | ID  | Problema                                       | Dif.   | Minutos | Unidades | Features                                                                   | Archivo                                                                    | Tiempo real | Notas                                                                                                        |
 | :----: | --- | ---------------------------------------------- | ------ | ------: | :------: | -------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------------------------ |
-|   ✅    | 21  | [02.01](02-sketch-tools-end-conditions/02.01/) | Medium |      10 |   MMGS   | Extrude Boss                                                               | [2-1](02-sketch-tools-end-conditions/02.01/PracticeProblems_2_1_ENG.pdf)   | 30          | Vista confusa en Seccion B. Me dio el peso, pero no sé si lo hice bien.                                      |
+|   ✅    | 21  | [02.01](02-sketch-tools-end-conditions/02.01/) | Medium |      10 |   MMGS   | Extrude Boss                                                               | [2-1](02-sketch-tools-end-conditions/02.01/PracticeProblems_2_1_ENG.pdf)   | 30          | Vista confusa en Seccion B. Me dio el volumen, pero no sé si lo hice bien.                                   |
 |   ✅    | 22  | [02.02](02-sketch-tools-end-conditions/02.02/) | Medium |      10 |   MMGS   | Extrude Boss                                                               | [2-2](02-sketch-tools-end-conditions/02.02/PracticeProblems_2_2_ENG.pdf)   | 45          | Tengo todas las cotas y variacion de 25mm³. idkw                                                             |
 |   ✅    | 23  | [02.03](02-sketch-tools-end-conditions/02.03/) | Medium |      10 |   MMGS   | Extrude Boss, Sketch: Offset                                               | [2-3](02-sketch-tools-end-conditions/02.03/PracticeProblems_2_3_ENG.pdf)   | 15          |                                                                                                              |
 |   ✅    | 24  | [02.04](02-sketch-tools-end-conditions/02.04/) | Medium |      15 |   MMGS   | Extrude Boss                                                               | [2-4](02-sketch-tools-end-conditions/02.04/PracticeProblems_2_4_ENG.pdf)   | 40          |                                                                                                              |
@@ -88,15 +88,15 @@ in³
 |   ✅    | 29  | [02.09](02-sketch-tools-end-conditions/02.09/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Trim                                                 | [2-9](02-sketch-tools-end-conditions/02.09/PracticeProblems_2_9_ENG.pdf)   | 10          |                                                                                                              |
 |   ✅    | 30  | [02.10](02-sketch-tools-end-conditions/02.10/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Trim                                                 | [2-10](02-sketch-tools-end-conditions/02.10/PracticeProblems_2_10_ENG.pdf) | 14          |                                                                                                              |
 |   ✅    | 31  | [02.11](02-sketch-tools-end-conditions/02.11/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Trim, Sketch: Convert, Sketch: Mirror/Dynamic Mirror | [2-11](02-sketch-tools-end-conditions/02.11/PracticeProblems_2_11_ENG.pdf) | 3           |                                                                                                              |
-|   ✅    | 32  | [02.12](02-sketch-tools-end-conditions/02.12/) | Medium |      20 |   MMGS   | Extrude Boss, Sketch: Offset, Sketch: Trim                                 | [2-12](02-sketch-tools-end-conditions/02.12/PracticeProblems_2_12_ENG.pdf) | 2horas      | Tuve que pedir ayuda. Me cuesta ver las curvas con relaciones de tangencia, pero este ejercicio ayudó mucho. |
-|   ⬜    | 33  | [02.13](02-sketch-tools-end-conditions/02.13/) | Easy   |       5 |   MMGS   | Extrude Boss, Sketch: Polygon                                              | [2-13](02-sketch-tools-end-conditions/02.13/PracticeProblems_2_13_ENG.pdf) |             |                                                                                                              |
-|   ⬜    | 34  | [02.14](02-sketch-tools-end-conditions/02.14/) | Easy   |       5 |   MMGS   | Extrude Boss, Sketch: Polygon                                              | [2-14](02-sketch-tools-end-conditions/02.14/PracticeProblems_2_14_ENG.pdf) |             |                                                                                                              |
-|   ⬜    | 35  | [02.15](02-sketch-tools-end-conditions/02.15/) | Easy   |       5 |   MMGS   | Extrude Boss, Sketch: Polygon                                              | [2-15](02-sketch-tools-end-conditions/02.15/PracticeProblems_2_15_ENG.pdf) |             |                                                                                                              |
-|   ⬜    | 36  | [02.16](02-sketch-tools-end-conditions/02.16/) | Medium |      10 |   MMGS   | Extrude Boss, Sketch: Slot                                                 | [2-16](02-sketch-tools-end-conditions/02.16/PracticeProblems_2_16_ENG.pdf) |             |                                                                                                              |
-|   ⬜    | 37  | [02.17](02-sketch-tools-end-conditions/02.17/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Slot                                                 | [2-17](02-sketch-tools-end-conditions/02.17/PracticeProblems_2_17_ENG.pdf) |             |                                                                                                              |
-|   ⬜    | 38  | [02.18](02-sketch-tools-end-conditions/02.18/) | Medium |      15 |   MMGS   | Extrude Boss, Sketch: Slot                                                 | [2-18](02-sketch-tools-end-conditions/02.18/PracticeProblems_2_18_ENG.pdf) |             |                                                                                                              |
-|   ⬜    | 39  | [02.19](02-sketch-tools-end-conditions/02.19/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Offset                                               | [2-19](02-sketch-tools-end-conditions/02.19/PracticeProblems_2_19_ENG.pdf) |             |                                                                                                              |
-|   ⬜    | 40  | [02.20](02-sketch-tools-end-conditions/02.20/) | Medium |      10 |   MMGS   | Extrude Boss, Sketch: Polygon, Sketch: Offset                              | [2-20](02-sketch-tools-end-conditions/02.20/PracticeProblems_2_20_ENG.pdf) |             |                                                                                                              |
+|   ✅    | 32  | [02.12](02-sketch-tools-end-conditions/02.12/) | Medium |      20 |   MMGS   | Extrude Boss, Sketch: Offset, Sketch: Trim                                 | [2-12](02-sketch-tools-end-conditions/02.12/PracticeProblems_2_12_ENG.pdf) | ~120        | Tuve que pedir ayuda. Me cuesta ver las curvas con relaciones de tangencia, pero este ejercicio ayudó mucho. |
+|   ✅    | 33  | [02.13](02-sketch-tools-end-conditions/02.13/) | Easy   |       5 |   MMGS   | Extrude Boss, Sketch: Polygon                                              | [2-13](02-sketch-tools-end-conditions/02.13/PracticeProblems_2_13_ENG.pdf) | 1           |                                                                                                              |
+|   ✅    | 34  | [02.14](02-sketch-tools-end-conditions/02.14/) | Easy   |       5 |   MMGS   | Extrude Boss, Sketch: Polygon                                              | [2-14](02-sketch-tools-end-conditions/02.14/PracticeProblems_2_14_ENG.pdf) | 1           |                                                                                                              |
+|   ✅    | 35  | [02.15](02-sketch-tools-end-conditions/02.15/) | Easy   |       5 |   MMGS   | Extrude Boss, Sketch: Polygon                                              | [2-15](02-sketch-tools-end-conditions/02.15/PracticeProblems_2_15_ENG.pdf) | 2           |                                                                                                              |
+|   ✅    | 36  | [02.16](02-sketch-tools-end-conditions/02.16/) | Medium |      10 |   MMGS   | Extrude Boss, Sketch: Slot                                                 | [2-16](02-sketch-tools-end-conditions/02.16/PracticeProblems_2_16_ENG.pdf) | 15          |                                                                                                              |
+|   ✅    | 37  | [02.17](02-sketch-tools-end-conditions/02.17/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Slot                                                 | [2-17](02-sketch-tools-end-conditions/02.17/PracticeProblems_2_17_ENG.pdf) | 5           |                                                                                                              |
+|   ✅    | 38  | [02.18](02-sketch-tools-end-conditions/02.18/) | Medium |      15 |   MMGS   | Extrude Boss, Sketch: Slot                                                 | [2-18](02-sketch-tools-end-conditions/02.18/PracticeProblems_2_18_ENG.pdf) | 10          | No me dio exacto el volumen, pero tengo las cotas iguales, sus                                               |
+|   ✅    | 39  | [02.19](02-sketch-tools-end-conditions/02.19/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Offset                                               | [2-19](02-sketch-tools-end-conditions/02.19/PracticeProblems_2_19_ENG.pdf) | 5           |                                                                                                              |
+|   ✅    | 40  | [02.20](02-sketch-tools-end-conditions/02.20/) | Medium |      10 |   MMGS   | Extrude Boss, Sketch: Polygon, Sketch: Offset                              | [2-20](02-sketch-tools-end-conditions/02.20/PracticeProblems_2_20_ENG.pdf) | 4           |                                                                                                              |
 
 ## Nivel 3
 
