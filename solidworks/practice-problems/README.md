@@ -25,6 +25,7 @@ solidworks/practice-problems/
 ├── README.md                           # Guía ejecutiva y documentación del sistema (este archivo)
 ├── tracker.md                          # Matriz interactiva de progreso (365 filas)
 ├── tracker.py                          # Script de automatización y sync de estado
+├── organize.py                         # Distribuidor y organizador automático de ejercicios
 ├── 00-resources/                       # Plantillas y estándares CAD (PRTDOT, slddrt, sldstd)
 ├── 01-basic-sketch-extrusion/          # Nivel 01 (CSWA)
 │   ├── 01.01/                          # Carpeta por problema
@@ -85,6 +86,30 @@ python tracker.py sync --dry-run
 Crea automáticamente las carpetas de problemas (`NN.MM`) faltantes en el sistema de archivos:
 ```bash
 python tracker.py init
+```
+
+---
+
+## 📦 Organizador Automático de Ejercicios (`organize.py`)
+
+Distribuye de manera automática los archivos descargados y descomprimidos (PDFs, ZIPs con ensamblajes, etc.) hacia sus subcarpetas correspondientes (`NN.MM/`), basándose en las rutas oficiales registradas en [`tracker.md`](./tracker.md). Una vez distribuidos todos los archivos, elimina automáticamente la carpeta contenedora vacía.
+
+### 1. Detección Automática
+Escanea carpetas entrantes con prefijo `LevelXX_*` (por ejemplo, `Level05_ReferenceGeometry`) y mueve sus archivos:
+```bash
+python organize.py
+```
+
+### 2. Procesar una Carpeta Específica
+Si la carpeta tiene un nombre particular o está en otra ruta:
+```bash
+python organize.py Level05_ReferenceGeometry
+```
+
+### 3. Modo Simulación (Dry Run)
+Previsualiza el destino de cada archivo sin realizar movimientos en el disco:
+```bash
+python organize.py --dry-run
 ```
 
 ---
