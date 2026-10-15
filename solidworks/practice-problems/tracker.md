@@ -12,26 +12,26 @@ Fuente oficial: [https://www.solidworks.com/solution/education/practice-problems
 
 | Nivel | Título | Examen | Total | Hechos | Avance |
 |---|---|---|---:|---:|---:|
-| 1 | [Basic Sketch & Extrusion](#nivel-1) | CSWA            | 20 | 20 | 100% |
-| 2 | [Sketch Tools & End Conditions](#nivel-2) | CSWA            | 20 | 20 | 100% |
-| 3 | [Global Variables & Sketch Patterns](#nivel-3) | CSWA            | 8 | 2 | 25% |
-| 4 | [Extrude Cut & Fillet/Chamfer](#nivel-4) | CSWA            | 70 | 0 | 0% |
-| 5 | [Reference Geometry](#nivel-5) | CSWA            | 15 | 0 | 0% |
-| 6 | [Revolve Boss/Cut](#nivel-6) | CSWA            | 20 | 0 | 0% |
-| 7 | [Feature Patterning](#nivel-7) | CSWA            | 48 | 0 | 0% |
-| 8 | [Sweep Boss/Cut](#nivel-8) | CSWA            | 14 | 0 | 0% |
-| 9 | [Assemblies and Mates](#nivel-9) | CSWA            | 16 | 0 | 0% |
-| 10 | [CSWA Exam Level](#nivel-10) | CSWA            | 19 | 0 | 0% |
-| 11 | [Hole Wizard](#nivel-11) | CSWP            | 12 | 0 | 0% |
-| 12 | [Draft](#nivel-12) | CSWP            | 9 | 0 | 0% |
-| 13 | [Shell](#nivel-13) | CSWP            | 13 | 0 | 0% |
-| 14 | [Rib](#nivel-14) | CSWP            | 9 | 0 | 0% |
-| 15 | [Configurations, Design Tables, Suppress](#nivel-15) | CSWP            | 16 | 0 | 0% |
-| 16 | [Global Variables, Equations, Link Values](#nivel-16) | CSWP            | 7 | 0 | 0% |
-| 17 | [Move, Rotate, Collision & Interference](#nivel-17) | CSWP            | 14 | 0 | 0% |
-| 18 | [CSWP Exam Level](#nivel-18) | CSWP            | 35 | 0 | 0% |
+| 1 | [Basic Sketch & Extrusion](#nivel-1) | CSWA             | 20 | 20 | 100% |
+| 2 | [Sketch Tools & End Conditions](#nivel-2) | CSWA             | 20 | 20 | 100% |
+| 3 | [Global Variables & Sketch Patterns](#nivel-3) | CSWA             | 8 | 8 | 100% |
+| 4 | [Extrude Cut & Fillet/Chamfer](#nivel-4) | CSWA             | 70 | 0 | 0% |
+| 5 | [Reference Geometry](#nivel-5) | CSWA             | 15 | 0 | 0% |
+| 6 | [Revolve Boss/Cut](#nivel-6) | CSWA             | 20 | 0 | 0% |
+| 7 | [Feature Patterning](#nivel-7) | CSWA             | 48 | 0 | 0% |
+| 8 | [Sweep Boss/Cut](#nivel-8) | CSWA             | 14 | 0 | 0% |
+| 9 | [Assemblies and Mates](#nivel-9) | CSWA             | 16 | 0 | 0% |
+| 10 | [CSWA Exam Level](#nivel-10) | CSWA             | 19 | 0 | 0% |
+| 11 | [Hole Wizard](#nivel-11) | CSWP             | 12 | 0 | 0% |
+| 12 | [Draft](#nivel-12) | CSWP             | 9 | 0 | 0% |
+| 13 | [Shell](#nivel-13) | CSWP             | 13 | 0 | 0% |
+| 14 | [Rib](#nivel-14) | CSWP             | 9 | 0 | 0% |
+| 15 | [Configurations, Design Tables, Suppress](#nivel-15) | CSWP             | 16 | 0 | 0% |
+| 16 | [Global Variables, Equations, Link Values](#nivel-16) | CSWP             | 7 | 0 | 0% |
+| 17 | [Move, Rotate, Collision & Interference](#nivel-17) | CSWP             | 14 | 0 | 0% |
+| 18 | [CSWP Exam Level](#nivel-18) | CSWP             | 35 | 0 | 0% |
 
-**Total: 42 / 365** (12%)
+**Total: 48 / 365** (13%)
 
 > Copiar y pegar para las notas:
 
@@ -102,16 +102,16 @@ in³
 
 **[Global Variables & Sketch Patterns](03-global-variables-sketch-patterns/)** — CSWA — 8 problemas
 
-| Estado | ID  | Problema                                            | Dif.   | Minutos | Unidades | Features                                                    | Archivo                                                                       | Tiempo real | Notas                                     |
-| :----: | --- | --------------------------------------------------- | ------ | ------: | :------: | ----------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------- | ----------------------------------------- |
-|   ✅    | 41  | [03.01](03-global-variables-sketch-patterns/03.01/) | Medium |      15 |   MMGS   | Extrude Boss, Sketch: Pattern                               | [3-1](03-global-variables-sketch-patterns/03.01/PracticeProblems_3_1_ENG.pdf) | 10          |                                           |
-|   ✅    | 42  | [03.02](03-global-variables-sketch-patterns/03.02/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Pattern                               | [3-2](03-global-variables-sketch-patterns/03.02/PracticeProblems_3_2_ENG.pdf) | 40          | Me trabé, pero ya le agarré mejor la onda |
-|   ⬜    | 43  | [03.03](03-global-variables-sketch-patterns/03.03/) | Medium |      15 |   MMGS   | Extrude Boss, Sketch: Offset, Sketch: Pattern               | [3-3](03-global-variables-sketch-patterns/03.03/PracticeProblems_3_3_ENG.pdf) |             |                                           |
-|   ⬜    | 44  | [03.04](03-global-variables-sketch-patterns/03.04/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Offset, Sketch: Trim, Sketch: Pattern | [3-4](03-global-variables-sketch-patterns/03.04/PracticeProblems_3_4_ENG.pdf) |             |                                           |
-|   ⬜    | 45  | [03.05](03-global-variables-sketch-patterns/03.05/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Pattern                               | [3-5](03-global-variables-sketch-patterns/03.05/PracticeProblems_3_5_ENG.pdf) |             |                                           |
-|   ⬜    | 46  | [03.06](03-global-variables-sketch-patterns/03.06/) | Easy   |       5 |   MMGS   | Extrude Boss, Sketch: Polygon, Sketch: Pattern              | [3-6](03-global-variables-sketch-patterns/03.06/PracticeProblems_3_6_ENG.pdf) |             |                                           |
-|   ⬜    | 47  | [03.07](03-global-variables-sketch-patterns/03.07/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Pattern                               | [3-7](03-global-variables-sketch-patterns/03.07/PracticeProblems_3_7_ENG.pdf) |             |                                           |
-|   ⬜    | 48  | [03.08](03-global-variables-sketch-patterns/03.08/) | Medium |      10 |   MMGS   | Extrude Boss, Sketch: Polygon, Sketch: Pattern              | [3-8](03-global-variables-sketch-patterns/03.08/PracticeProblems_3_8_ENG.pdf) |             |                                           |
+| Estado | ID  | Problema                                            | Dif.   | Minutos | Unidades | Features                                                    | Archivo                                                                       | Tiempo real | Notas                                            |
+| :----: | --- | --------------------------------------------------- | ------ | ------: | :------: | ----------------------------------------------------------- | ----------------------------------------------------------------------------- | ----------- | ------------------------------------------------ |
+|   ✅    | 41  | [03.01](03-global-variables-sketch-patterns/03.01/) | Medium |      15 |   MMGS   | Extrude Boss, Sketch: Pattern                               | [3-1](03-global-variables-sketch-patterns/03.01/PracticeProblems_3_1_ENG.pdf) | 10          |                                                  |
+|   ✅    | 42  | [03.02](03-global-variables-sketch-patterns/03.02/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Pattern                               | [3-2](03-global-variables-sketch-patterns/03.02/PracticeProblems_3_2_ENG.pdf) | 40          | Me trabé, pero ya le agarré mejor la onda        |
+|   ✅    | 43  | [03.03](03-global-variables-sketch-patterns/03.03/) | Medium |      15 |   MMGS   | Extrude Boss, Sketch: Offset, Sketch: Pattern               | [3-3](03-global-variables-sketch-patterns/03.03/PracticeProblems_3_3_ENG.pdf) | 40          | Me atoré con una linea constructiva escondida :( |
+|   ✅    | 44  | [03.04](03-global-variables-sketch-patterns/03.04/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Offset, Sketch: Trim, Sketch: Pattern | [3-4](03-global-variables-sketch-patterns/03.04/PracticeProblems_3_4_ENG.pdf) | 12          |                                                  |
+|   ✅    | 45  | [03.05](03-global-variables-sketch-patterns/03.05/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Pattern                               | [3-5](03-global-variables-sketch-patterns/03.05/PracticeProblems_3_5_ENG.pdf) | 9           |                                                  |
+|   ✅    | 46  | [03.06](03-global-variables-sketch-patterns/03.06/) | Easy   |       5 |   MMGS   | Extrude Boss, Sketch: Polygon, Sketch: Pattern              | [3-6](03-global-variables-sketch-patterns/03.06/PracticeProblems_3_6_ENG.pdf) | 25          |                                                  |
+|   ✅    | 47  | [03.07](03-global-variables-sketch-patterns/03.07/) | Easy   |      10 |   MMGS   | Extrude Boss, Sketch: Pattern                               | [3-7](03-global-variables-sketch-patterns/03.07/PracticeProblems_3_7_ENG.pdf) | 5           |                                                  |
+|   ✅    | 48  | [03.08](03-global-variables-sketch-patterns/03.08/) | Medium |      10 |   MMGS   | Extrude Boss, Sketch: Polygon, Sketch: Pattern              | [3-8](03-global-variables-sketch-patterns/03.08/PracticeProblems_3_8_ENG.pdf) | 6           |                                                  |
 
 ## Nivel 4
 
