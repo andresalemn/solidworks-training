@@ -12,26 +12,26 @@ Fuente oficial: [https://www.solidworks.com/solution/education/practice-problems
 
 | Nivel | Título | Examen | Total | Hechos | Avance |
 |---|---|---|---:|---:|---:|
-| 1 | [Basic Sketch & Extrusion](#nivel-1) | CSWA                | 20 | 20 | 100% |
-| 2 | [Sketch Tools & End Conditions](#nivel-2) | CSWA                | 20 | 20 | 100% |
-| 3 | [Global Variables & Sketch Patterns](#nivel-3) | CSWA                | 8 | 8 | 100% |
-| 4 | [Extrude Cut & Fillet/Chamfer](#nivel-4) | CSWA                | 70 | 4 | 6% |
-| 5 | [Reference Geometry](#nivel-5) | CSWA                | 15 | 0 | 0% |
-| 6 | [Revolve Boss/Cut](#nivel-6) | CSWA                | 20 | 0 | 0% |
-| 7 | [Feature Patterning](#nivel-7) | CSWA                | 48 | 0 | 0% |
-| 8 | [Sweep Boss/Cut](#nivel-8) | CSWA                | 14 | 0 | 0% |
-| 9 | [Assemblies and Mates](#nivel-9) | CSWA                | 16 | 0 | 0% |
-| 10 | [CSWA Exam Level](#nivel-10) | CSWA                | 19 | 0 | 0% |
-| 11 | [Hole Wizard](#nivel-11) | CSWP                | 12 | 0 | 0% |
-| 12 | [Draft](#nivel-12) | CSWP                | 9 | 0 | 0% |
-| 13 | [Shell](#nivel-13) | CSWP                | 13 | 0 | 0% |
-| 14 | [Rib](#nivel-14) | CSWP                | 9 | 0 | 0% |
-| 15 | [Configurations, Design Tables, Suppress](#nivel-15) | CSWP                | 16 | 0 | 0% |
-| 16 | [Global Variables, Equations, Link Values](#nivel-16) | CSWP                | 7 | 0 | 0% |
-| 17 | [Move, Rotate, Collision & Interference](#nivel-17) | CSWP                | 14 | 0 | 0% |
-| 18 | [CSWP Exam Level](#nivel-18) | CSWP                | 35 | 0 | 0% |
+| 1 | [Basic Sketch & Extrusion](#nivel-1) | CSWA                  | 20 | 20 | 100% |
+| 2 | [Sketch Tools & End Conditions](#nivel-2) | CSWA                  | 20 | 20 | 100% |
+| 3 | [Global Variables & Sketch Patterns](#nivel-3) | CSWA                  | 8 | 8 | 100% |
+| 4 | [Extrude Cut & Fillet/Chamfer](#nivel-4) | CSWA                  | 70 | 7 | 10% |
+| 5 | [Reference Geometry](#nivel-5) | CSWA                  | 15 | 0 | 0% |
+| 6 | [Revolve Boss/Cut](#nivel-6) | CSWA                  | 20 | 0 | 0% |
+| 7 | [Feature Patterning](#nivel-7) | CSWA                  | 48 | 0 | 0% |
+| 8 | [Sweep Boss/Cut](#nivel-8) | CSWA                  | 14 | 0 | 0% |
+| 9 | [Assemblies and Mates](#nivel-9) | CSWA                  | 16 | 0 | 0% |
+| 10 | [CSWA Exam Level](#nivel-10) | CSWA                  | 19 | 0 | 0% |
+| 11 | [Hole Wizard](#nivel-11) | CSWP                  | 12 | 0 | 0% |
+| 12 | [Draft](#nivel-12) | CSWP                  | 9 | 0 | 0% |
+| 13 | [Shell](#nivel-13) | CSWP                  | 13 | 0 | 0% |
+| 14 | [Rib](#nivel-14) | CSWP                  | 9 | 0 | 0% |
+| 15 | [Configurations, Design Tables, Suppress](#nivel-15) | CSWP                  | 16 | 0 | 0% |
+| 16 | [Global Variables, Equations, Link Values](#nivel-16) | CSWP                  | 7 | 0 | 0% |
+| 17 | [Move, Rotate, Collision & Interference](#nivel-17) | CSWP                  | 14 | 0 | 0% |
+| 18 | [CSWP Exam Level](#nivel-18) | CSWP                  | 35 | 0 | 0% |
 
-**Total: 52 / 365** (14%)
+**Total: 55 / 365** (15%)
 
 > Copiar y pegar para las notas:
 
@@ -123,9 +123,9 @@ in³
 |   ✅    | 50  | [04.02](04-extrude-cut-fillet-chamfer/04.02/) | Medium |      15 |   MMGS   | Extrude Boss, Extrude Cut                                                                    | [4-2](04-extrude-cut-fillet-chamfer/04.02/PracticeProblems_4_2_ENG.pdf)   | 34          |                                                          |
 |   ✅    | 51  | [04.03](04-extrude-cut-fillet-chamfer/04.03/) | Medium |      15 |   MMGS   | Extrude Boss, Extrude Cut, Fillet and Chamfer                                                | [4-3](04-extrude-cut-fillet-chamfer/04.03/PracticeProblems_4_3_ENG.pdf)   | 16          |                                                          |
 |   ✅    | 52  | [04.04](04-extrude-cut-fillet-chamfer/04.04/) | Medium |      15 |   MMGS   | Extrude Boss, Extrude Cut, Fillet and Chamfer                                                | [4-4](04-extrude-cut-fillet-chamfer/04.04/PracticeProblems_4_4_ENG.pdf)   | 20          | Vref​ = 66264 mm³<br>Vobt​ = 67885.54 mm³<br>ε = 2.4471% |
-|   ⬜    | 53  | [04.05](04-extrude-cut-fillet-chamfer/04.05/) | Medium |      20 |   MMGS   | Extrude Boss, Extrude Cut, Fillet and Chamfer                                                | [4-5](04-extrude-cut-fillet-chamfer/04.05/PracticeProblems_4_5_ENG.pdf)   |             |                                                          |
-|   ⬜    | 54  | [04.06](04-extrude-cut-fillet-chamfer/04.06/) | Hard   |      35 |   MMGS   | Extrude Boss, Extrude Cut                                                                    | [4-6](04-extrude-cut-fillet-chamfer/04.06/PracticeProblems_4_6_ENG.pdf)   |             |                                                          |
-|   ⬜    | 55  | [04.07](04-extrude-cut-fillet-chamfer/04.07/) | Medium |      25 |   MMGS   | Extrude Boss, Extrude Cut, Fillet and Chamfer                                                | [4-7](04-extrude-cut-fillet-chamfer/04.07/PracticeProblems_4_7_ENG.pdf)   |             |                                                          |
+|   ✅    | 53  | [04.05](04-extrude-cut-fillet-chamfer/04.05/) | Medium |      20 |   MMGS   | Extrude Boss, Extrude Cut, Fillet and Chamfer                                                | [4-5](04-extrude-cut-fillet-chamfer/04.05/PracticeProblems_4_5_ENG.pdf)   | 28          | Ligera varianza, no entiendo.                            |
+|   ✅    | 54  | [04.06](04-extrude-cut-fillet-chamfer/04.06/) | Hard   |      35 |   MMGS   | Extrude Boss, Extrude Cut                                                                    | [4-6](04-extrude-cut-fillet-chamfer/04.06/PracticeProblems_4_6_ENG.pdf)   | 21          |                                                          |
+|   ✅    | 55  | [04.07](04-extrude-cut-fillet-chamfer/04.07/) | Medium |      25 |   MMGS   | Extrude Boss, Extrude Cut, Fillet and Chamfer                                                | [4-7](04-extrude-cut-fillet-chamfer/04.07/PracticeProblems_4_7_ENG.pdf)   | 22          |                                                          |
 |   ⬜    | 56  | [04.08](04-extrude-cut-fillet-chamfer/04.08/) | Easy   |      15 |   MMGS   | Extrude Boss, Extrude Cut, Fillet and Chamfer                                                | [4-8](04-extrude-cut-fillet-chamfer/04.08/PracticeProblems_4_8_ENG.pdf)   |             |                                                          |
 |   ⬜    | 57  | [04.09](04-extrude-cut-fillet-chamfer/04.09/) | Easy   |      15 |   MMGS   | Extrude Boss, Extrude Cut                                                                    | [4-9](04-extrude-cut-fillet-chamfer/04.09/PracticeProblems_4_9_ENG.pdf)   |             |                                                          |
 |   ⬜    | 58  | [04.10](04-extrude-cut-fillet-chamfer/04.10/) | Easy   |       5 |   MMGS   | Extrude Boss, Extrude Cut                                                                    | [4-10](04-extrude-cut-fillet-chamfer/04.10/PracticeProblems_4_10_ENG.pdf) |             |                                                          |
